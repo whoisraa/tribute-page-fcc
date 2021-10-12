@@ -1,0 +1,183 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding-top: 70px;
+    background-color: #eee;
+    margin: 0;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #c8472c;
+    width: 100%;
+    z-index: 10;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 20px;
+    list-style: none;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+#main {
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+#main h1 {
+    font-family: 'Pirata One', cursive;
+    font-size: 8vw;
+    letter-spacing: 0.5vw;
+    margin: 0;
+    padding: 0;
+    line-height: 1em;
+}
+
+#main p {
+    margin: 0;
+    font-size: 2vw;
+}
+
+#img-div {
+    background-color: black;
+    padding: 15px;
+}
+
+#image {
+    max-width: 100%;
+    display: block;
+}
+
+#img-caption {
+    margin-top: 10px;
+    font-size: 0.7em;
+    color: white;
+    letter-spacing: 0.1vw;
+}
+
+#tribute-info {
+    width: 850px;
+    margin: 50px auto;
+}
+
+#tribute-info h2 {
+    text-align: center;
+}
+
+#tribute-info ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+
+    justify-content: center;
+}
+
+#tribute-info li {
+    width: 200px;
+    height: 200px;
+    margin: 5px;
+}
+
+.movie {
+    position: relative;
+}
+
+.movie .movie-img {
+    width: 100%;
+    height: 100%;
+}
+
+.movie .movie-overlay {
+    background-color: black;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.movie .movie-overlay:hover {
+    opacity: 1;
+}
+
+.release-date {
+    font-size: 0.8em;
+}
+
+.movie-title {
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: 5px;
+}
+
+#videos {
+    text-align: center;
+}
+
+.video-list {
+    margin-top: 30px;
+}
+
+#links {
+    text-align: center;
+    background-color: #412a1e;
+    padding: 5px 0;
+}
+
+#links h2 {
+    color: white;
+}
+
+#links ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+#links li {
+    font-size: 2em;
+    margin: 0 10px;
+}
+
+#links li a {
+    color: white;
+}
+
+#links li a .bi-instagram:hover {
+    color: #C13584;
+}
+
+#links li a .bi-twitter:hover {
+    color: #1DA1F2;
+}
+
+#links li a .bi-facebook:hover {
+    color: #4267B2;
+}
